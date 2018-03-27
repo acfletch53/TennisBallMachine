@@ -26,99 +26,103 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d07-Uu-nOY">
                                 <rect key="frame" x="16" y="36" width="343" height="615"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofy-uG-xgp">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="123"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Pqf-7Y-eYW" userLabel="AngleStackView">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="154"/>
+                                        <rect key="frame" x="0.0" y="123" width="343" height="123"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyl-x2-uwb">
-                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="154"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0A-Hw-PYf">
-                                                <rect key="frame" x="68.5" y="0.0" width="68.5" height="154"/>
+                                                <rect key="frame" x="68.5" y="0.0" width="68.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-iY-aEb">
-                                                <rect key="frame" x="137" y="0.0" width="69" height="154"/>
+                                                <rect key="frame" x="137" y="0.0" width="69" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYT-6k-kaK">
-                                                <rect key="frame" x="206" y="0.0" width="68.5" height="154"/>
+                                                <rect key="frame" x="206" y="0.0" width="68.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkm-qG-YH3">
-                                                <rect key="frame" x="274.5" y="0.0" width="68.5" height="154"/>
+                                                <rect key="frame" x="274.5" y="0.0" width="68.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jcM-f6-Fb1">
-                                        <rect key="frame" x="0.0" y="154" width="343" height="153.5"/>
+                                        <rect key="frame" x="0.0" y="246" width="343" height="123"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="10" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="tsN-Bz-ZO4" userLabel="VelocitySlider">
-                                                <rect key="frame" x="7" y="36.5" width="330" height="110"/>
-                                            </slider>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioT-bo-RDY">
                                                 <rect key="frame" x="8" y="8" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="10" maxValue="60" translatesAutoresizingMaskIntoConstraints="NO" id="tsN-Bz-ZO4" userLabel="VelocitySlider">
+                                                <rect key="frame" x="7" y="36.5" width="330" height="31"/>
+                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="ioT-bo-RDY" secondAttribute="trailing" constant="8" id="1Fn-H5-nuY"/>
-                                            <constraint firstItem="ioT-bo-RDY" firstAttribute="top" secondItem="jcM-f6-Fb1" secondAttribute="top" constant="8" id="AbC-rD-9UL"/>
                                             <constraint firstItem="ioT-bo-RDY" firstAttribute="leading" secondItem="jcM-f6-Fb1" secondAttribute="leading" constant="8" id="KIp-Ty-0KR"/>
-                                            <constraint firstAttribute="bottom" secondItem="tsN-Bz-ZO4" secondAttribute="bottom" constant="8" id="g6R-Bf-f7v"/>
                                             <constraint firstItem="tsN-Bz-ZO4" firstAttribute="top" secondItem="ioT-bo-RDY" secondAttribute="bottom" constant="8" id="pJN-0i-oAr"/>
                                             <constraint firstAttribute="trailing" secondItem="tsN-Bz-ZO4" secondAttribute="trailing" constant="8" id="qJR-AJ-zLD"/>
                                             <constraint firstItem="tsN-Bz-ZO4" firstAttribute="leading" secondItem="jcM-f6-Fb1" secondAttribute="leading" constant="9" id="roK-Lj-olk"/>
+                                            <constraint firstItem="ioT-bo-RDY" firstAttribute="top" secondItem="jcM-f6-Fb1" secondAttribute="top" constant="8" id="u4V-EI-KbD"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kg8-1H-7cb">
-                                        <rect key="frame" x="0.0" y="307.5" width="343" height="154"/>
+                                        <rect key="frame" x="0.0" y="369" width="343" height="123"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1.5" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="DZU-S4-Dbe" userLabel="FrequencySlider">
-                                                <rect key="frame" x="6" y="36.5" width="331" height="110.5"/>
-                                            </slider>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2HW-FA-MnY">
                                                 <rect key="frame" x="8" y="8" width="327" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1.5" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="DZU-S4-Dbe" userLabel="FrequencySlider">
+                                                <rect key="frame" x="6" y="37" width="331" height="31"/>
+                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="2HW-FA-MnY" secondAttribute="trailing" constant="8" id="3Jt-Km-LeI"/>
                                             <constraint firstItem="2HW-FA-MnY" firstAttribute="leading" secondItem="Kg8-1H-7cb" secondAttribute="leading" constant="8" id="4uN-b8-RuE"/>
-                                            <constraint firstAttribute="bottom" secondItem="DZU-S4-Dbe" secondAttribute="bottom" constant="8" id="Vu0-pb-70p"/>
                                             <constraint firstItem="DZU-S4-Dbe" firstAttribute="leading" secondItem="Kg8-1H-7cb" secondAttribute="leading" constant="8" id="cJW-fJ-Nvi"/>
-                                            <constraint firstItem="2HW-FA-MnY" firstAttribute="top" secondItem="Kg8-1H-7cb" secondAttribute="top" constant="8" id="lp7-ZZ-Bnk"/>
                                             <constraint firstItem="DZU-S4-Dbe" firstAttribute="top" secondItem="2HW-FA-MnY" secondAttribute="bottom" constant="8" id="m6q-gW-DZw"/>
                                             <constraint firstAttribute="trailing" secondItem="DZU-S4-Dbe" secondAttribute="trailing" constant="8" id="p5o-q4-N3j"/>
+                                            <constraint firstItem="2HW-FA-MnY" firstAttribute="top" secondItem="Kg8-1H-7cb" secondAttribute="top" constant="8" id="wQY-fG-fd5"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rjw-tw-8la" userLabel="PPSStackView">
-                                        <rect key="frame" x="0.0" y="461.5" width="343" height="153.5"/>
+                                        <rect key="frame" x="0.0" y="492" width="343" height="123"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjU-9x-Zhb">
-                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="153.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckp-Lj-ahp">
-                                                <rect key="frame" x="114.5" y="0.0" width="114" height="153.5"/>
+                                                <rect key="frame" x="114.5" y="0.0" width="114" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCD-sD-VBb">
-                                                <rect key="frame" x="228.5" y="0.0" width="114.5" height="153.5"/>
+                                                <rect key="frame" x="228.5" y="0.0" width="114.5" height="123"/>
                                                 <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
                                                 <state key="normal" title=""/>
                                             </button>
@@ -129,7 +133,6 @@
                                     <constraint firstAttribute="trailing" secondItem="Pqf-7Y-eYW" secondAttribute="trailing" id="5Q7-ld-4X9" userLabel="AngleStackViewTrailing"/>
                                     <constraint firstItem="rjw-tw-8la" firstAttribute="leading" secondItem="d07-Uu-nOY" secondAttribute="leading" id="9C5-bH-ZPt" userLabel="PPSStackViewLeading"/>
                                     <constraint firstAttribute="bottom" secondItem="rjw-tw-8la" secondAttribute="bottom" id="AqM-Bb-dyH" userLabel="PPSStackViewBottom"/>
-                                    <constraint firstItem="Pqf-7Y-eYW" firstAttribute="top" secondItem="d07-Uu-nOY" secondAttribute="top" id="HNZ-SR-JuV" userLabel="AngleStackViewTop"/>
                                     <constraint firstItem="Pqf-7Y-eYW" firstAttribute="leading" secondItem="d07-Uu-nOY" secondAttribute="leading" id="Oxz-vc-y36" userLabel="AngleStackViewLeading"/>
                                     <constraint firstAttribute="trailing" secondItem="rjw-tw-8la" secondAttribute="trailing" id="eo3-gx-EQ0" userLabel="PPSStackViewTrailing"/>
                                 </constraints>
