@@ -15,9 +15,6 @@
 		D38EDDC32069B0DB002EAC3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38EDDC22069B0DB002EAC3A /* main.m */; };
 		D38EDDCD2069B0DB002EAC3A /* TennisBallMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38EDDCC2069B0DB002EAC3A /* TennisBallMachineTests.m */; };
 		D38EDDD82069B0DB002EAC3A /* TennisBallMachineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38EDDD72069B0DB002EAC3A /* TennisBallMachineUITests.m */; };
-		D3B915E02069CBB2002BA831 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3B915DF2069CBB2002BA831 /* Font Awesome 5 Free-Regular-400.otf */; };
-		D3B915E32069CBD2002BA831 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3B915E12069CBD2002BA831 /* Font Awesome 5 Free-Solid-900.otf */; };
-		D3B915E42069CBD2002BA831 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3B915E22069CBD2002BA831 /* Font Awesome 5 Brands-Regular-400.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +51,6 @@
 		D38EDDD32069B0DB002EAC3A /* TennisBallMachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisBallMachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38EDDD72069B0DB002EAC3A /* TennisBallMachineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisBallMachineUITests.m; sourceTree = "<group>"; };
 		D38EDDD92069B0DB002EAC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3B915DF2069CBB2002BA831 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Regular-400.otf"; path = "../../../fontawesome-free-5.0.8/use-on-desktop/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
-		D3B915E12069CBD2002BA831 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Free-Solid-900.otf"; path = "../../../fontawesome-free-5.0.8/use-on-desktop/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
-		D3B915E22069CBD2002BA831 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "../../../fontawesome-free-5.0.8/use-on-desktop/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +136,6 @@
 		D3B915DE2069CB83002BA831 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D3B915E22069CBD2002BA831 /* Font Awesome 5 Brands-Regular-400.otf */,
-				D3B915E12069CBD2002BA831 /* Font Awesome 5 Free-Solid-900.otf */,
-				D3B915DF2069CBB2002BA831 /* Font Awesome 5 Free-Regular-400.otf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -256,11 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38EDDC02069B0DB002EAC3A /* LaunchScreen.storyboard in Resources */,
-				D3B915E42069CBD2002BA831 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
-				D3B915E02069CBB2002BA831 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				D38EDDBD2069B0DB002EAC3A /* Assets.xcassets in Resources */,
 				D38EDDBB2069B0DB002EAC3A /* Main.storyboard in Resources */,
-				D3B915E32069CBD2002BA831 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,14 +6,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Font Awesome 5 Free-Solid-900.otf">
-            <string>FontAwesome5FreeSolid</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -26,7 +22,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="d07-Uu-nOY">
                                 <rect key="frame" x="16" y="36" width="343" height="615"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofy-uG-xgp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TenniOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofy-uG-xgp">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="123"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -35,30 +31,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Pqf-7Y-eYW" userLabel="AngleStackView">
                                         <rect key="frame" x="0.0" y="123" width="343" height="123"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyl-x2-uwb">
-                                                <rect key="frame" x="0.0" y="0.0" width="68.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zyl-x2-uwb">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="123"/>
+                                                <state key="normal" title="Move Left"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0A-Hw-PYf">
-                                                <rect key="frame" x="68.5" y="0.0" width="68.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="y0A-Hw-PYf">
+                                                <rect key="frame" x="86" y="0.0" width="85.5" height="123"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Move Right">
+                                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-iY-aEb">
-                                                <rect key="frame" x="137" y="0.0" width="69" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qHz-iY-aEb">
+                                                <rect key="frame" x="171.5" y="0.0" width="86" height="123"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Random"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYT-6k-kaK">
-                                                <rect key="frame" x="206" y="0.0" width="68.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkm-qG-YH3">
-                                                <rect key="frame" x="274.5" y="0.0" width="68.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aYT-6k-kaK">
+                                                <rect key="frame" x="257.5" y="0.0" width="85.5" height="123"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Loop"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -82,7 +74,7 @@
                                             <constraint firstItem="tsN-Bz-ZO4" firstAttribute="top" secondItem="ioT-bo-RDY" secondAttribute="bottom" constant="8" id="pJN-0i-oAr"/>
                                             <constraint firstAttribute="trailing" secondItem="tsN-Bz-ZO4" secondAttribute="trailing" constant="8" id="qJR-AJ-zLD"/>
                                             <constraint firstItem="tsN-Bz-ZO4" firstAttribute="leading" secondItem="jcM-f6-Fb1" secondAttribute="leading" constant="9" id="roK-Lj-olk"/>
-                                            <constraint firstItem="ioT-bo-RDY" firstAttribute="top" secondItem="jcM-f6-Fb1" secondAttribute="top" constant="8" id="u4V-EI-KbD"/>
+                                            <constraint firstItem="ioT-bo-RDY" firstAttribute="top" secondItem="jcM-f6-Fb1" secondAttribute="firstBaseline" constant="8" id="u4V-EI-KbD"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kg8-1H-7cb">
@@ -113,18 +105,18 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjU-9x-Zhb">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="Pause"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckp-Lj-ahp">
                                                 <rect key="frame" x="114.5" y="0.0" width="114" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="Start"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCD-sD-VBb">
                                                 <rect key="frame" x="228.5" y="0.0" width="114.5" height="123"/>
-                                                <fontDescription key="fontDescription" name="FontAwesome5FreeSolid" family="Font Awesome 5 Free" pointSize="20"/>
-                                                <state key="normal" title=""/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="Stop"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -147,6 +139,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="_frequencyLabel" destination="2HW-FA-MnY" id="TjG-98-Wh7"/>
+                        <outlet property="_frequencySlider" destination="DZU-S4-Dbe" id="Qwb-vE-ZXQ"/>
+                        <outlet property="_velocityLabel" destination="ioT-bo-RDY" id="uIm-w7-UaF"/>
+                        <outlet property="_velocitySlider" destination="tsN-Bz-ZO4" id="UTF-Pe-tD3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
